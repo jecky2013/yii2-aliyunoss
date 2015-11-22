@@ -1,0 +1,26 @@
+{
+  "name": "jecky2013/yii2-aliyunoss",
+  "description": "阿里云oss",
+  "keywords": ["阿里云", "extension", "oss"],
+  "homepage": "https://github.com/jecky2013/yii2-aliyunoss",
+  "type": "yii2-extension",
+  "license": "BSD-3-Clause",
+  "support": {
+    "source": "https://github.com/jecky2013/yii2-aliyunoss"
+  },
+  "authors": [
+    {
+      "name": "Jecky",
+      "email": "jecky15@163.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*",
+    "johnlui/aliyun-oss": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "yii\\aliyunoss\\": ""
+    }
+  }
+}
